@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="Theme.DOCkit" parent="android:Theme.Material.Light.NoActionBar">-->
+<!--        <item name="colorPrimary">@color/Primary_Red</item>-->
+<!--    </style>-->
+    <style name="Theme.DOCkit" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/Primary_Red</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorPrimaryContainer">@color/Primary_Red</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+    </style>
+
+    <style name="MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/test2nobglogo</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Theme.DOCkit</item>
+
+    </style>
+</resources>
